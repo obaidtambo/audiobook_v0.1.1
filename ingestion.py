@@ -423,7 +423,7 @@ if __name__ == "__main__":
     
     try:
         book_id = pipeline.ingest_book(
-            pdf_path='audiobook2.pdf',
+            pdf_path='PDF\07. The Yellow Wall-Papper, Charlotte Perkins Stetson.pdf',
             metadata_override={
                 'author': 'Obaid Tamboli',
                 'genre': 'Science Fiction',
