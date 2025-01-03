@@ -15,6 +15,11 @@ from langchain_community.llms import Replicate
 # from langchain_community.llms import Replicate
 from langchain_core.prompts import PromptTemplate
 import replicate
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env
+load_dotenv()
 
 database='DBS/scene_generation.db'
 # Configure logging
